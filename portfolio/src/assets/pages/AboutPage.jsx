@@ -1,9 +1,9 @@
-
+import { About } from "../components/About"
 
 export function AboutPage() {
     return (
         <>
-        <h1>About</h1>
+        <About />
         </>
     )
 }

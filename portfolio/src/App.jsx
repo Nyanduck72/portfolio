@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Link } from 'react-router-dom'
 
-import { HomePage } from './assets/pages/HomePage'
-import { AboutPage } from './assets/pages/AboutPage'
+import { AnimatedRoutes } from './assets/components/AnimatedRoutes';
 
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 
@@ -16,7 +15,6 @@ function App() {
     const menuItems = [
         {
             name: 'Home',
-            icon: { ArrowRight},
             path: '/'
         },
         {
@@ -32,22 +30,19 @@ function App() {
     return (
       <Router>
           <div className="flex">
-              <nav className="bg-neutral-950 w-32 flex-shrink-0 h-screen">
+              <nav className="bg-neutral-950 w-32 flex-shrink-0 h-screen fixed">
                   <ul className="flex flex-col p-4">
                       {menuItems.map((item, index) => (
-                          <li key={index} className="mb-2 text-center">
-                              <Link to={item.path} className="text-gray-300 hover:text-lime-500">
-                                  <span></span>{item.name}
+                          <li key={index} className="mb-2">
+                              <Link to={item.path} className="text-gray-300 hover:text-lime-500 hover:underline">
+                              <span>{item.name}</span>
                               </Link>
                           </li>
                       ))}
                   </ul>
               </nav>
-              <div className="flex-1">
-                  <Routes>
-                      <Route path="/" element={<HomePage />} />
-                      <Route path="/about" element={<AboutPage />} />
-                  </Routes>
+              <div className="flex-1 ml-32 h-screen">
+                <AnimatedRoutes />
               </div>
           </div>
       </Router>
