@@ -78,7 +78,7 @@ function App() {
         </div>
         {!isNavOpen && (
           <button
-            className="fixed top-4 left-0 bg-neutral-950 text-neutral-50 px-2 py-3 shadow-lg rounded-r-md transition-all duration-300"
+            className="fixed top-2 left-0 bg-neutral-950 text-neutral-50 px-2 py-3 shadow-lg rounded-r-md transition-all duration-300"
             onClick={toggleNav}
           >
             <ArrowRightFromLine />
