@@ -30,7 +30,6 @@ export function About() {
                         </div>
                     </div>
                     <div className="border-t-2 border-green-500 my-8"></div>
-                    <p className="text-center text-xl text-neutral-50 lg:text-xl lg:text-left sm:text-xl sm:text-left">I'm a software developer with a passion for creating and learning new things. I'm currently learning C++ and C# to create videogames, and always looking for a challenge.</p>
                 </div>
             </motion.div>
         </>
