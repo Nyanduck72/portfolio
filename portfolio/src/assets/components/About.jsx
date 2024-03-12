@@ -13,7 +13,7 @@ export function About() {
                     <p className=" text-center text-2xl text-neutral-50 lg:text-3xl lg:text-left sm:text-2xl sm:text-left">F.Y.I</p>
                     <div className="border-t-2 border-green-500 my-8">
                     </div>
-                    <div className="w-full h-full p-8 grid gap-x-2 gap-y-8 lg:grid-cols-2 md:grid-cols-1">
+                    <div className="w-full h-full p-8 grid gap-x-4 gap-y-8 lg:grid-cols-2 md:grid-cols-1">
                         <div>
                             <p className="text-xl text-neutral-50 lg:text-xl lg:text-left sm:text-xl sm:text-left">Hello! My name is Alejandro González, but most people call me <span className="text-green-500">Alex</span>.</p>
                             <br />
