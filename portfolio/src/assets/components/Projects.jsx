@@ -13,7 +13,7 @@ const cardInfo = [
         "id": 2,
         "name": "GameVault",
         "desc": "This was one of the first team proyects i've participated on. It's a sort-of social media where users leave reviews on their favorite games, and if they don't find it, they can add it! The website runned on hopes and dreams, meaning MySQL for the database, PHP back-end and Bootstrap front-end, hosted on a free trial that (expectedly) ran out. Safe to say that i've found better ways to deploy websites :P",
-        "path": ""
+        "path": "https://github.com/GaelCrack15/gamevault"
     },
     {
         "id": 3,

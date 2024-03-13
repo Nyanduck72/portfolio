@@ -6,9 +6,7 @@ import VB from '/img/Vine-boom-sound-effect.mp3'
 export function NotFound() {
     useEffect(() => {
         const audio = new Audio(VB);
-        if (window.onload) {
-            audio.play();
-        }
+        audio.play();
     });
     return (
         <>

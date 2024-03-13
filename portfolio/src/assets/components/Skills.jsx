@@ -6,7 +6,7 @@ const code_skills = [
     { name: 'Java', progress: 50},
     { name: 'C#', progress: 50},
     { name: 'Javascript', progress: 55},
-    { name: 'React', progress: 33},
+    { name: 'React.js', progress: 33},
     { name: 'Next.js', progress: 5},
     { name: 'HTML', progress: 85},
     { name: 'PHP', progress: 25},
@@ -36,14 +36,14 @@ export function Skills() {
                 <p className=" text-center text-2xl text-neutral-50 lg:text-3xl lg:text-left sm:text-2xl sm:text-left">On a scale from "Yeah, I've heard of it" to "Yeah, I've heard of it"</p>
                 <div className="border-t-2 border-green-500 my-8"></div>
             </div>
-            <h2 className="text-center text-2xl text-neutral-400 mb-2 lg:text-5xl lg:text-left sm:text-5xl sm:text-left">Coding <span className="font-bold text-3xl text-green-500 lg:text-5xl sm:text-4xl">Languages</span></h2>
+            <h2 className="text-center text-2xl text-neutral-400 mb-2 lg:text-5xl lg:text-left sm:text-4xl sm:text-left">Coding <span className="font-bold text-3xl text-green-500 lg:text-5xl sm:text-5xl">Languages</span></h2>
             <div className="w-full h-full mx-auto p-8 grid gap-x-6 gap-y-4 lg:grid-cols-2 md:grid-cols-1">
                 {code_skills.map((skill) => (
                     <ProgressBar key={skill.name} skill={skill} />
                 ))}
             </div>
             <div className="border-t-2 border-green-500 my-8"></div>
-            <h2 className="text-center text-2xl text-neutral-400 mb-2 lg:text-5xl lg:text-left sm:text-5xl sm:text-left">Other <span className="font-bold text-3xl text-green-500 lg:text-5xl sm:text-4xl">Stuff</span> :P</h2>
+            <h2 className="text-center text-2xl text-neutral-400 mb-2 lg:text-5xl lg:text-left sm:text-4xl sm:text-left">Other <span className="font-bold text-3xl text-green-500 lg:text-5xl sm:text-5xl">Stuff</span> :P</h2>
             <div className="w-full h-full mx-auto p-8 grid gap-x-6 gap-y-4 lg:grid-cols-2 md:grid-cols-1">
                 {other_skills.map((skill) => (
                     <ProgressBar key={skill.name} skill={skill} />
