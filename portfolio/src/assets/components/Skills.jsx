@@ -3,25 +3,25 @@ import { motion } from "framer-motion"
 import { ProgressBar } from "./Bar"
 
 const code_skills = [
-    { name: 'Java', progress: 50},
-    { name: 'C#', progress: 50},
-    { name: 'Javascript', progress: 55},
-    { name: 'React.js', progress: 33},
-    { name: 'Next.js', progress: 5},
-    { name: 'HTML', progress: 85},
-    { name: 'PHP', progress: 25},
-    { name: 'C++', progress: 15},
-    { name: 'Arduino / IoT', progress: 38},
-    { name: 'Python', progress: 33},
+    { name: 'Java', progress: 50, info: ["Object Oriented Programming"]},
+    { name: 'C#', progress: 50, info: []},
+    { name: 'Javascript', progress: 55, info: []},
+    { name: 'React.js', progress: 33, info: []},
+    { name: 'Next.js', progress: 5, info: []},
+    { name: 'HTML', progress: 85, info: []},
+    { name: 'PHP', progress: 25, info: []},
+    { name: 'C++', progress: 15, info: []},
+    { name: 'Arduino / IoT', progress: 38, info: []},
+    { name: 'Python', progress: 33, info: []},
 ]
 
 const other_skills = [
-    { name: 'Digital art', progress: 20},
-    { name: 'Git / GitHub', progress: 40},
-    { name: 'Bash commands', progress: 35},
-    { name: 'Database management', progress: 30},
-    { name: 'Network management', progress: 30},
-    { name: 'Fucking around', progress: 300},
+    { name: 'Digital art', progress: 20, info: []},
+    { name: 'Git / GitHub', progress: 40, info: []},
+    { name: 'Bash commands', progress: 35, info: []},
+    { name: 'Database management', progress: 30, info: []},
+    { name: 'Network management', progress: 30, info: []},
+    { name: 'Fucking around', progress: 300, info: []},
 ]
 
 export function Skills() {
