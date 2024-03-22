@@ -9,6 +9,7 @@ import './App.css'
 
 function App() {
   const [isNavOpen, setIsNavOpen] = useState(true);
+  const [activeSection, setActiveSection] = useState(null);
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
@@ -62,7 +63,7 @@ function App() {
               <li key={index} className="mb-8">
                 <Link
                   to={item.path}
-                  className="flex items-center text-neutral-300 gap-x-2 hover:text-green-500"
+                  className="flex items-center text-neutral-300 gap-x-2 hover:text-green-500 focus:text-green-500"
                 >
                   <div>{item.icon}</div>
                   <span className="border-l-2 border-neutral-50 pl-2 border-transparent hover:border-green-200 hover:py-1 transition-all duration-300">
