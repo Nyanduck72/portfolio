@@ -18,7 +18,7 @@ export function About() {
                             <p className="text-xl text-neutral-50 lg:text-xl lg:text-left sm:text-xl sm:text-left">Hello! My name is Alejandro González, but most people call me <span className="text-green-500">Alex</span>.</p>
                             <br />
                             <p className="text-xl text-neutral-50 lg:text-xl lg:text-left sm:text-xl">
-                                I'm currently 19 years old and on my second year at UTCH studying cross-platform software development, with a heavy focus on web applications. <br /><br />
+                                I'm 19 years old and on my second year at UTCH studying cross-platform software development, with a heavy focus on web applications. I'm currently picking up videogame development again, this time in Godot!<br /><br />
                                 I wanted this section to function more or less like a diary or blog, so I will be updating this every once in a while with whatever i got going on :)
                                 </p>
                         </div>
