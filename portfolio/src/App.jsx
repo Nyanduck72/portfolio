@@ -76,7 +76,7 @@ function App() {
             ))}
           </ul>
         </nav>
-        <div className={`flex-1 h-screen ${isNavOpen ? 'ml-32 ' : ''} ${screen_size < 430 ? "ml-16" : "" }`}>
+        <div className={`flex-1 h-screen ${isNavOpen ? 'ml-32 ' : ''} ${screen_size < 430 ? "ml-8" : "" }`}>
           <AnimatedRoutes />
         </div>
         {!isNavOpen && (
