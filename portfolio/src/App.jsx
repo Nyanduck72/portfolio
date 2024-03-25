@@ -51,10 +51,10 @@ function App() {
         <nav
           className={`bg-neutral-950 flex-shrink-0 h-screen fixed transition-max-width duration-200 ${
             isNavOpen ? 'max-w-32' : 'max-w-0'
-          }  ${screen_size < 400 ? "max-w-16" : "w-32" }`}
+          }  ${screen_size < 430 ? "max-w-16" : "w-32" }`}
         >
           <button
-            className={`mx-11 my-4 text-center text-neutral-50 px-2 py-1 rounded-md transition-all duration-300 ${ isNavOpen ? 'max-w-32' : 'hidden'}  ${screen_size < 400 ? "mx-2" : "" }`}
+            className={`mx-11 my-4 text-center text-neutral-50 px-2 py-1 rounded-md transition-all duration-300 ${ isNavOpen ? 'max-w-32' : 'hidden'}  ${screen_size < 430 ? "mx-2" : "" }`}
             onClick={toggleNav}
           >
             <ArrowLeftFromLine />
@@ -68,7 +68,7 @@ function App() {
                   className="flex items-center text-neutral-300 gap-x-2 hover:text-green-500 focus:text-green-500"
                 >
                   <div>{item.icon}</div>
-                  <span className={`border-l-2 border-neutral-50 pl-2 border-transparent hover:border-green-200 hover:py-1 ${screen_size < 400 ? "hidden" : "" } transition-all duration-300`}>
+                  <span className={`border-l-2 border-neutral-50 pl-2 border-transparent hover:border-green-200 hover:py-1 ${screen_size < 430 ? "hidden" : "" } transition-all duration-300`}>
                     {item.name}
                   </span>
                 </Link>
@@ -76,7 +76,7 @@ function App() {
             ))}
           </ul>
         </nav>
-        <div className={`flex-1 h-screen ${isNavOpen ? 'ml-32 ' : ''} ${screen_size < 400 ? "ml-16" : "" }`}>
+        <div className={`flex-1 h-screen ${isNavOpen ? 'ml-32 ' : ''} ${screen_size < 430 ? "ml-16" : "" }`}>
           <AnimatedRoutes />
         </div>
         {!isNavOpen && (
