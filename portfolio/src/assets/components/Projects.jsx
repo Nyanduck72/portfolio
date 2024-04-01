@@ -50,6 +50,12 @@ const cardInfo = [
         "name": "Album displayer",
         "desc": "I don't just consume APIs, I also make them! This app makes use of Express.js to create and serve an API about The Strokes' discography, with a way to add more albums!",
         "path": "https://github.com/Nyanduck72/Practica-Cors"
+    },
+    {
+        "id": 9,
+        "name": "Blackjack",
+        "desc": "I made this proyect very recently in my spring break. This rushed proyect was made in about an hour at 2:00 AM. Why? because I felt like it (and I couldn't sleep so I did this instead of doom-scrolling)",
+        "path": "https://github.com/Nyanduck72/blackjack"
     }
 ];
 

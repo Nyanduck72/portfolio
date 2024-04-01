@@ -54,7 +54,7 @@ function App() {
           }  ${screen_size < 430 ? "max-w-16" : "w-32" }`}
         >
           <button
-            className={`mx-11 my-4 text-center text-neutral-50 px-2 py-1 rounded-md transition-all duration-300 ${ isNavOpen ? 'max-w-32' : 'hidden'}  ${screen_size < 430 ? "mx-2" : "" }`}
+            className={`mx-11 my-4 text-center text-neutral-50 px-2 py-1 rounded-md transition-all duration-300 ${ isNavOpen ? 'max-w-32' : 'hidden'}  ${screen_size < 430 ? "hidden" : "" }`}
             onClick={toggleNav}
           >
             <ArrowLeftFromLine />

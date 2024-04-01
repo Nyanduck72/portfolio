@@ -20,7 +20,7 @@ const other_skills = [
     { name: 'Digital art', progress: 20, info: ["Photoshop", "CorelDRAW"]},
     { name: 'Git / GitHub', progress: 35, info: ["Basic functions (Fetch, Pull, Push & Commit) on terminal", "Branch Administration"]},
     { name: 'Bash commands', progress: 35, info: ["Basic commands (ls, cd, mv, rm, touch, mkdir, etc.)", "Pipes and Redirections", "User Management", "Shell Scripting"]},
-    { name: 'Database management', progress: 30, info: ["SQL Relational Tables, Queries & Views", "SQL Permissions", "SQL Procedures & Transactions", "Firebase Realtime Databases, FIrestore and Authentication Services"]},
+    { name: 'Database management', progress: 30, info: ["SQL Relational Tables, Queries & Views", "SQL Permissions", "SQL Procedures & Transactions", "Firebase Realtime Databases, Firestore and Authentication Services"]},
 ]
 
 export function Skills() {
