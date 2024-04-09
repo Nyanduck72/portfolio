@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import { ProgressBar } from "./Bar"
 
 const code_skills = [
-    { name: 'Java', progress: 35, info: ["Conditions & Loops", "Exception H&ling", "Functions", "Classes & Methods"]},
+    { name: 'Java', progress: 35, info: ["Conditions & Loops", "Exception Handling", "Functions", "Classes & Methods"]},
     { name: 'C#', progress: 25, info: ["Conditions & Loops", "Functions", "Classes & Methods"]},
     { name: 'Javascript', progress: 60, info: ["DOM manipulation", "Promises & Asynchronous Functions", "Local Storage", "Stacks & Queues", "Classes & Methods", "Basic Node.js & Express.js"]},
     { name: 'React.js', progress: 33, info: ["JSX", "Components & Properties", "Basic Hooks (useState & useEffect)"]},
