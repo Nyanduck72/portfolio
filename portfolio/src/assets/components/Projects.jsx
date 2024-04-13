@@ -54,8 +54,14 @@ const cardInfo = [
     {
         "id": 9,
         "name": "Blackjack",
-        "desc": "I made this proyect very recently in my spring break. This rushed proyect was made in about an hour at 2:00 AM. Why? because I felt like it (and I couldn't sleep so I did this instead of doom-scrolling)",
+        "desc": "I made this proyect very recently in my spring break. This rushed proyect was made in about an hour at 2:00 AM. Why? because I felt like it (and I couldn't sleep so I did this instead of doom-scrolling).",
         "path": "https://github.com/Nyanduck72/blackjack"
+    },
+    {
+        "id": 10,
+        "name": "Cookie Clicker Clone",
+        "desc": "Like most of my projects, this was born on the classroom, but unlike most of my projects, I actually followed up with it :P. It's just a way shorter and simpler version of Cookie Clicker mad from the ground up, and I learned a lot about the intervals and how they work on JS.",
+        "path": "https://github.com/Nyanduck72/cookie-clicker"
     }
 ];
 
