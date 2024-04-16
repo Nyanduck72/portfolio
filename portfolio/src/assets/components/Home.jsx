@@ -28,7 +28,7 @@ export function Home() {
                 <a className='mt-4 p-2 border-none rounded-lg font-bold flex flex-col items-center content-center bg-neutral-200 w-full hover:bg-neutral-50' href="/CV.pdf" target='_blank'><FileDown /> Download my CV</a>
                     <div className='w-full grid gap-x-4 gap-y-4 lg:grid-cols-2 md:grid-cols-1'>
                     <a className='mt-4 p-2 border-none rounded-lg text-white font-bold flex flex-col items-center content-center bg-neutral-950 w-full hover:bg-neutral-900' href="https://github.com/Nyanduck72/" target='_blank'><Github stroke='#fff'/> Check me out on GitHub...</a>
-                    <a className='mt-4 p-2 border-none rounded-lg text-white font-bold flex flex-col items-center content-center bg-blue-950 w-full hover:bg-blue-900' href="https://github.com/Nyanduck72/" target='_blank'><Linkedin stroke='#fff'/> ...Or LinkedIn.</a>
+                    <a className='mt-4 p-2 border-none rounded-lg text-white font-bold flex flex-col items-center content-center bg-blue-950 w-full hover:bg-blue-900' href="https://www.linkedin.com/in/alejandro-gonzález-817052274/" target='_blank'><Linkedin stroke='#fff'/> ...Or LinkedIn.</a>
                     </div>
                 </div>
             </div>
